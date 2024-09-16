@@ -1,0 +1,90 @@
+form {
+  display: flex;
+}
+
+form {
+  margin: 10px 20px;
+  gap: 10px;
+}
+
+form input {
+  display: flex;
+  flex: 1;
+  height: 30px;
+  padding: 0 10px;
+  border-radius: 5px;
+}
+
+form button {
+  flex: 1;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #1a2edf;
+  max-width: 150px;
+}
+
+.container-table {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 10px;
+}
+
+h4 {
+  display: flex;
+  /* color: #050915; */
+  font-size: 1.3rem;
+  font-weight: 300;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* background-color: #f9f9f9; */
+  padding: 30px;
+  border: 2px dashed #ccc;
+  border-radius: 10px;
+  width: 80%;
+  margin: 50px auto;
+}
+
+table {
+  flex: 1;
+  border-collapse: collapse;
+  margin: 10px;
+  font-size: 1.5rem;
+}
+
+th {
+  font-weight: 400;
+}
+
+tr {
+  border-top: 1px solid #ffffff;
+}
+
+tr:last-child {
+  border-bottom: 1px solid #ffffff;
+}
+
+.center {
+  text-align: center;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.icon:first-child:hover {
+  cursor: pointer;
+}
+
+.icon:last-child:hover {
+  cursor: pointer;
+}
